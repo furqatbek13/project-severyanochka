@@ -268,6 +268,7 @@ main {
         button:hover {
             background-color: rgba(112, 192, 91, 1);
             color: rgba(255, 255, 255, 1);
+            transition: all 0.3s linear;
         }
 
         button:first-child {
@@ -329,6 +330,87 @@ main {
             text-align: center;
             color: rgba(96, 96, 96, 1);
             cursor: pointer;
+        }
+    }
+    .articles_cards_parents{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 40px;
+    }
+    .articles_cards:hover{
+        box-shadow: 6px 6px 22px 7px #ffad39af;
+        cursor: pointer;
+        transition: all 0.3s linear;
+    }
+    .articles_cards {
+        width: 376px;
+        height: 440px;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 1);
+
+
+        img {
+            width: 376px;
+            border-radius: 5px 5px 0px 0px;
+            margin-bottom: 10px;
+        }
+
+        span {
+            font-family: Rubik;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 18px;
+            text-align: left;
+            color: rgba(114, 114, 114, 1);
+            padding-bottom: 10px;
+            padding-left: 5px;
+        }
+
+        h4 {
+            width: 365px;
+            font-family: Rubik;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 27px;
+            text-align: left;
+            color: rgba(65, 65, 65, 1);
+            padding-bottom: 10px;
+            padding-left: 5px;
+        }
+
+        p {
+            width: 356px;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            padding-bottom: 10px;
+            color: rgba(65, 65, 65, 1);
+            padding-left: 5px;
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            padding: 8px 0px 0px 0px;
+            border-radius: 4px;
+            background: rgba(229, 255, 222, 1);
+            border: transparent;
+            font-family: Rubik;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: center;
+            color: rgba(112, 192, 91, 1);
+            cursor: pointer;
+            padding: 8px 0px;
+            margin-left: 5px;
+        }
+        button:hover{
+            background: rgb(14, 171, 56);
+            color: rgba(255, 255, 255, 1);
+            transition: all 0.3s linear;
         }
     }
 }
