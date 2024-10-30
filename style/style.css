@@ -25,6 +25,9 @@ header .head_nav {
 header .head_nav .head_logo img {
   height: 40px;
 }
+header .head_nav a {
+  text-decoration: none;
+}
 header .head_nav span {
   display: flex;
   align-items: center;
