@@ -12,23 +12,44 @@
 header {
   width: 100%;
   height: 90px;
-  background-color: rgb(255, 255, 255);
   position: sticky;
   top: 0;
-  padding: 0px 0;
+  background-color: #ffffff;
+  padding: 15px 0px;
 }
 header .head_nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
 }
-header .head_nav .head_logo img {
+header .head_nav .inputs {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(112, 192, 91);
+  width: 375px;
   height: 40px;
+  justify-content: space-between;
 }
-header .head_nav a {
-  text-decoration: none;
+header .head_nav .inputs input {
+  border: none;
+  padding: 5px;
 }
-header .head_nav span {
+header .head_nav .icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+header .head_nav .catalog {
+  position: relative;
+  display: flex;
+}
+header .head_nav .catalog .catalog-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
   display: flex;
   align-items: center;
   border: none;
@@ -46,26 +67,36 @@ header .head_nav span {
   color: rgb(255, 255, 255);
   cursor: pointer;
 }
-header .head_nav .inputs {
-  display: flex;
-  align-items: center;
-  border: 1px solid rgb(112, 192, 91);
-  height: 40px;
+header .head_nav .catalog .catalog-btn img {
+  margin-right: 10px;
 }
-header .head_nav .inputs input {
-  border: none;
-  padding: 5px;
+header .head_nav .catalog .dropdown-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  width: 1000px;
+}
+header .head_nav .catalog .dropdown-menu li a {
+  display: block;
+  padding: 10px 20px;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-size: 20px;
   font-family: Rubik;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  color: rgb(143, 143, 143);
 }
-header .head_nav .icons {
-  display: flex;
-  align-items: center;
-  gap: 24px;
+header .head_nav .catalog .dropdown-menu li a:hover {
+  color: #db1c1c;
+}
+header .head_nav .catalog:hover .dropdown-menu {
+  display: block;
 }
 
 main {
