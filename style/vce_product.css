@@ -42,11 +42,21 @@ header .head_nav .inputs {
   border: 1px solid rgb(112, 192, 91);
   width: 375px;
   height: 40px;
+}
+header .head_nav .inputs span {
+  display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+header .head_nav .inputs span i {
+  font-size: 25px;
 }
 header .head_nav .inputs input {
   border: none;
-  padding: 5px;
+  padding-right: 175px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 header .head_nav .icons {
   display: flex;
