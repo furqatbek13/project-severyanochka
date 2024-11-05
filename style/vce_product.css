@@ -107,19 +107,10 @@ header .head_nav #toggle-btn {
   border-radius: 5px;
 }
 
-.section-1 {
-  width: 100%;
-  background-image: url(/images/Sliders.png);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  width: 100%;
-  height: 200px;
-}
-
 .section-2 {
   width: 100%;
   height: 100%;
-  padding: 80px 0px;
+  padding: 50px 0px;
 }
 .section-2 .aksiya_div {
   display: flex;
@@ -228,189 +219,6 @@ header .head_nav #toggle-btn {
   transition: all 0.3s linear;
 }
 
-.section-5 {
-  width: 100%;
-  height: 100%;
-  padding: 50px 0px;
-}
-.section-5 h1 {
-  font-family: Rubik, sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 54px;
-  text-align: left;
-  color: rgb(65, 65, 65);
-}
-.section-5 .twist_imgs {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-
-.section-6 {
-  width: 100%;
-  height: 100%;
-  padding: 50px 0px;
-}
-.section-6 h1 {
-  font-family: Rubik, sans-serif;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 54px;
-  text-align: left;
-  color: rgb(65, 65, 65);
-}
-.section-6 .maps_locatsion {
-  display: flex;
-  gap: 20px;
-  padding-bottom: 24px;
-}
-.section-6 .maps_locatsion button {
-  border: none;
-  cursor: pointer;
-  font-family: Rubik;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 18px;
-  text-align: center;
-  color: rgb(96, 96, 96);
-  padding: 5px;
-}
-.section-6 .maps_locatsion button:hover {
-  background-color: rgb(112, 192, 91);
-  color: rgb(255, 255, 255);
-  transition: all 0.3s linear;
-}
-.section-6 .maps_locatsion button:first-child {
-  width: 97px;
-  height: 32px;
-  padding: 8px 0px 0px 0px;
-  border-radius: 4px;
-  border: none;
-}
-.section-6 .maps_locatsion button:nth-child(2) {
-  width: 86px;
-  height: 32px;
-  border-radius: 4px;
-}
-.section-6 .maps_locatsion button:nth-child(3) {
-  width: 104px;
-  height: 32px;
-  padding: 8px 0px 0px 0px;
-  border-radius: 4px;
-}
-.section-6 .maps_locatsion button:nth-child(4) {
-  width: 80px;
-  height: 32px;
-  border-radius: 4px;
-}
-
-.section-7 {
-  width: 100%;
-  height: 100%;
-  padding: 50px 0px;
-}
-.section-7 .articles {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.section-7 .articles h2 {
-  font-family: Rubik;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 54px;
-  text-align: left;
-  color: rgb(65, 65, 65);
-}
-.section-7 .articles span {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: Rubik;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-  color: rgb(96, 96, 96);
-  cursor: pointer;
-}
-.section-7 .articles_cards_parents {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 40px;
-}
-.section-7 .articles_cards:hover {
-  box-shadow: 6px 6px 22px 7px rgba(255, 173, 57, 0.6862745098);
-  cursor: pointer;
-  transition: all 0.3s linear;
-}
-.section-7 .articles_cards {
-  width: 376px;
-  height: 440px;
-  border-radius: 5px;
-  background-color: rgb(255, 255, 255);
-}
-.section-7 .articles_cards img {
-  width: 376px;
-  border-radius: 5px 5px 0px 0px;
-  margin-bottom: 10px;
-}
-.section-7 .articles_cards span {
-  font-family: Rubik;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 18px;
-  text-align: left;
-  color: rgb(114, 114, 114);
-  padding-bottom: 10px;
-  padding-left: 5px;
-}
-.section-7 .articles_cards h4 {
-  width: 365px;
-  font-family: Rubik;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 27px;
-  text-align: left;
-  color: rgb(65, 65, 65);
-  padding-bottom: 10px;
-  padding-left: 5px;
-}
-.section-7 .articles_cards p {
-  width: 356px;
-  font-family: Rubik;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  padding-bottom: 10px;
-  color: rgb(65, 65, 65);
-  padding-left: 5px;
-}
-.section-7 .articles_cards button {
-  width: 150px;
-  height: 40px;
-  padding: 8px 0px 0px 0px;
-  border-radius: 4px;
-  background: rgb(229, 255, 222);
-  border: transparent;
-  font-family: Rubik;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: center;
-  color: rgb(112, 192, 91);
-  cursor: pointer;
-  padding: 8px 0px;
-  margin-left: 5px;
-}
-.section-7 .articles_cards button:hover {
-  background: rgb(14, 171, 56);
-  color: rgb(255, 255, 255);
-  transition: all 0.3s linear;
-}
-
 footer {
   width: 100%;
   height: 120px;
@@ -465,4 +273,4 @@ footer .footer_div_bottom span {
   line-height: 18px;
   text-align: left;
   color: rgb(65, 65, 65);
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=vce_product.css.map */
